@@ -15,6 +15,6 @@ def quick_sort(arr):
 
 
 if __name__ == "__main__":
-    array = [64, 34, 25, 12, 22, 10, 90]
+    array = [3, 1, 2, 4, 5]
     sorted_array = quick_sort(array)
     print("정렬된 배열:", sorted_array)
