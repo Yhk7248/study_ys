@@ -11,7 +11,6 @@ def bubble_sort(arr):
 
 
 if __name__ == "__main__":
-    array = [64, 34, 25, 12, 22, 11, 90]
+    array = [4, 3, 2, 7, 6, 5]
     sorted_array = bubble_sort(array)
     print("정렬된 배열:", sorted_array)
-    
