@@ -17,7 +17,11 @@ def quick_sort(unsorted_list: list) -> list:
         else:
             low.append(val)
 
-    return quick_sort(low) + [pivot] + quick_sort(high)
+    low_result = quick_sort(low)
+    pivot_result = [pivot]
+    high_result = quick_sort(high)
+
+    return low_result + pivot_result + high_result
 
 
 if __name__ == "__main__":
