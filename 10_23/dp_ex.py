@@ -19,7 +19,7 @@ DP: 다이나믹 프로그래밍
 
 def max_path_sum(triangle):
     # 맨 아래 행을 초기화
-    dp = triangle[-1]
+    dp = triangle[-1].copy()
 
     # 아래 행부터 위로 올라가며 계산
     for i in range(len(triangle) - 2, -1, -1):
