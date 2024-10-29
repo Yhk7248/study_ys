@@ -2,8 +2,6 @@
 백준 9095번 다이나믹 프로그래밍 문제.
 """
 
-import sys
-
 if __name__ == "__main__":
 
     test_case = int(input())
